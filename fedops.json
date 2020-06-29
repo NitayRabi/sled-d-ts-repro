@@ -1,0 +1,11 @@
+{
+    "appName": "sled-d-ts",
+    "notifications": {
+      "slack_channels": [
+        "fedops-urgent-default"
+      ]
+    },
+    "deploy_annotations": [
+      "sled-d-ts"
+    ]
+  }
