@@ -12,7 +12,9 @@
     "build": "yoshi build",
     "test": "yoshi test",
     "lint": "yoshi lint",
-    "posttest": "npm run lint"
+    "posttest": "npm run lint",
+    "sled": "sled-test-runner remote",
+    "sled:local": "sled-test-runner local"
   },
   "husky": {
     "hooks": {
@@ -53,6 +55,8 @@
     "jest-yoshi-preset": "^4.1.0",
     "lint-staged": "^10.0.7",
     "puppeteer": "^1.1.0",
+    "santa-integration-tests": "^2.0.0-alpha.1279",
+    "sled-test-runner": "^1.0.584",
     "typescript": "~3.9.0",
     "yoshi": "^4.1.0",
     "yoshi-style-dependencies": "^4.1.0"

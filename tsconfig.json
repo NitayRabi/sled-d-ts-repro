@@ -16,6 +16,8 @@
   "include": [
     "./__tests__/**/*.ts",
     "./src/**/*.spec.tsx",
+    "./src/**/*.spec.ts",
+    "./sled/**/*.spec.ts",
     "./jest-yoshi.config.js",
     "./environment.js",
     "./index-dev.js",
@@ -23,6 +25,7 @@
   ],
   "files": [
     "./src/external-types.d.ts",
+    "./src/santa-integration-tests.d.ts",
     "./src/test-types.d.ts",
     "./src/server.ts",
     "./src/client.tsx"
